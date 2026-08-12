@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* 1) Load the local font file */
+@font-face {
+  font-family: "Inter", sans-serif;
+
+  src: url("../fonts/Inter_24pt-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Inter-bold";
+
+  src: url("../fonts/Inter_24pt-Bold.ttf");
+}
+
+@theme {
+  --font-inter: "Inter", sans-serif;
+  --font-inter-bold: "Inter-bold";
+}
+.dot-task-as {
+  color: green;
+}
